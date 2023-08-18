@@ -70,9 +70,11 @@
       <input type="text" name="name" id="apellido" v-model="user.apellido" class="form-control" />
       <label for class="form-label">edad</label>
       <input type="number" name="name" id="edad" v-model="user.edad" class="form-control" />
-      <button @click="show = true" class="btn btn-dark"><i class="fa-solid fa-share"></i>Enviar</button>
+      <button @click="show = true" class="btn btn-dark">
+        <i class="fa-solid fa-share"></i>Enviar
+      </button>
     </div>
-  
+
     <footer class="bg-dark text-light py-4">
       <div class="container">
         <div class="row">
@@ -159,7 +161,11 @@ export default {
   justify-self: center;
   background: #ffd7d7;
   border-radius: 10px;
+  margin: 25px 0px;
   padding: 10px;
+  -webkit-box-shadow: 0px 15px 15px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 15px 15px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 15px 15px -6px rgba(0, 0, 0, 0.75);
 }
 
 .flexD {
